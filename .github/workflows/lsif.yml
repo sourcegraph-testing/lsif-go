@@ -4,7 +4,7 @@ on:
 jobs:
   lsif-go:
     runs-on: ubuntu-latest
-    container: sourcegraph/lsif-go
+    container: sourcegraph/scip-go
     steps:
       - uses: actions/checkout@v2
       - name: Generate LSIF data
